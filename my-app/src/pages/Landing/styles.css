@@ -1,0 +1,32 @@
+.LandingPage{
+    padding-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+    width: 80%;
+    display: flex;
+}
+
+.LandingPage .banner_img{
+    width: 40%;
+    height: auto;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px rgba(32, 32, 32, 0.2);
+}
+
+.LandingPage h1{
+    color: var(--primary);
+    text-align: center;
+}
+
+.LandingPage p{
+    text-align: center;
+}
+
+.LandingPage .info_container{
+    width: 52%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

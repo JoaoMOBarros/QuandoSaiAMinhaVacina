@@ -1,0 +1,19 @@
+.primary_button{
+    background-color: var(--primary);
+    font-family: "Poppins";
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    padding: 12px 16px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    box-shadow: 2px 2px 4px rgba(44, 44, 44, 0.2);
+    cursor: pointer;
+    transition: ease-in-out 0.4s;
+}
+
+.primary_button:hover{
+    background-color: var(--secundary);
+    transition: ease-in-out 0.4s;
+}
