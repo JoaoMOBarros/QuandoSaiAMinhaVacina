@@ -1,0 +1,34 @@
+.TargetGroup{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 120px;
+    padding: 10px;
+    border-radius: 10px;
+    width: 24%;
+    border: 2px solid var(--primary);
+    background-color: var(--primary-c);
+    cursor: pointer;
+}
+
+.TargetGroup .label{ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.TargetGroup .icon{
+    width: 60%;
+    color: var(--black);
+    height: auto;
+    margin-bottom: 5px;
+}
+
+.TargetGroup h3{ 
+    margin: 0px
+}
+
+.TargetGroup:active{
+    border: 2px solid var(--secundary);
+    background-color: var(--secundary-c);
+}

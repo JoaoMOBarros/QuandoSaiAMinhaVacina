@@ -1,13 +1,11 @@
 import React, {useState} from 'react';
 import PrimaryButton from '../../components/Default/PrimaryButton'
-import {CountryDropdown, RegionDropdown } from "react-country-region-selector";
+
+import TargetGroup from '../../components//TargetGroup'
 import './styles.css'
 
 
 const Form= (props) => {
-
-    const [state, setState] = useState("BR");
-    const [cn, setCn] = useState();
 
 
     return (
@@ -48,6 +46,12 @@ const Form= (props) => {
             </select>
 
             <h3>Você faz parte de grupos de risco?*</h3>
+            <div class="target_section">
+                <TargetGroup title={"Asma"}/>
+                <TargetGroup title={"Asma"}/>
+                <TargetGroup title={"Asma"}/>
+                <TargetGroup title={"Asma"}/>
+            </div>
             <PrimaryButton text={"Procurar"}/>
         </div>
     );

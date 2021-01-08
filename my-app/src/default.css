@@ -59,7 +59,9 @@ textarea:focus, input:focus{
 
 .App {
   --primary: #92E393;
+  --primary-c: #cbeecc;
   --secundary: #f0c844;
+  --secundary-c: #f0dda0;
   --light-gray: #707070;
   --black: #2c2c2c;
 
@@ -104,7 +106,7 @@ p{
 
 .box{
   background-color: white;
-  padding: 20px;
+  padding: 50px 20px;
   border-radius: 10px;
   box-shadow: 2px 2px 6px rgba(32, 32, 32, 0.2);
 }

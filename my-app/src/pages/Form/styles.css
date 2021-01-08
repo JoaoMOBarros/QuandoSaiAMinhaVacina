@@ -7,6 +7,18 @@
     width: 40%;
 }
 
+.Form h3{ 
+    margin-top: 10px;
+}
+
+.Form .target_section{
+    display: flex;
+    justify-content: space-between; 
+    width: 80%;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
 .input_field{
     width: 80%;
     height: auto;
@@ -24,3 +36,4 @@
     box-shadow: 2px 2px 4px rgba(32, 32, 32, 0.2);
     transition: ease-in-out 0.4s;
 }
+
